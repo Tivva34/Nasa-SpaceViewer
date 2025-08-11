@@ -1,12 +1,13 @@
-# React + Vite
+# NASA Space Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app that lets you explore NASA's Astronomy Picture of the Day (APOD) — either today’s image/video or a random one from the archive. Powered by NASA’s public API, Axios for fetching, and animated with Framer Motion.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Displays NASA’s daily Astronomy Picture of the Day (image or video)
+- Automatically falls back to a random archive date if today's media is unavailable
+- Smooth fade-in animations with Framer Motion
+- Responsive and clean UI styled via CSS
+- Randomize button to explore different cosmic wonders from NASA’s archive
